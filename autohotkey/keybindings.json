@@ -1,0 +1,21 @@
+// Key bindings for Visual Studio Code or Cursor
+[
+    {
+        "key": "ctrl+shift+down",
+        "command": "cursorMove",
+        "when": "editorTextFocus",
+        "args": {
+            "to": "nextBlankLine",
+            "select": true
+        }
+    },
+    {
+        "key": "ctrl+shift+up",
+        "command": "cursorMove",
+        "when": "editorTextFocus",
+        "args": {
+            "to": "prevBlankLine",
+            "select": true
+        }
+    }
+]
